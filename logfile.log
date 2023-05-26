@@ -1,0 +1,35 @@
+[2023-05-25 22:11:57] [ INFO ] [OdontologoH2:36] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 22:11:57] [ ERROR] [OdontologoH2:41] Tuvimos un problema
+[2023-05-25 22:11:57] [ ERROR] [OdontologoH2:77] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 22:16:43] [ INFO ] [OdontologoH2:36] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:16:43] [ ERROR] [OdontologoH2:52] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:16:43] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:16:43] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:17:51] [ INFO ] [OdontologoH2:36] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:17:51] [ ERROR] [OdontologoH2:52] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:17:51] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:17:51] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:18:31] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:18:31] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:20:11] [ INFO ] [OdontologoH2:36] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:20:11] [ ERROR] [OdontologoH2:52] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:21:05] [ INFO ] [OdontologoH2:36] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:21:05] [ ERROR] [OdontologoH2:52] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:21:05] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:21:05] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:21:50] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:21:50] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:21:59] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:21:59] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:24:33] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:24:33] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:25:27] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:25:27] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:25:52] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:25:52] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:26:42] [ INFO ] [OdontologoH2:36] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:26:42] [ ERROR] [OdontologoH2:52] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 22:26:42] [ ERROR] [OdontologoH2:77] Database may be already in use: "C:/Users/nahue/Eval1Nahuel.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 22:26:42] [ ERROR] [OdontologoH2:84] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
