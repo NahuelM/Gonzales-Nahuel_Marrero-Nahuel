@@ -38,10 +38,10 @@ public class OdontologoH2 implements IDao <Odontologo> {
             if(connection != null){
                 try {
                     connection.rollback();
-                    System.out.println("Tuvimos un problema");
+                    LOGGER.error("Tuvimos un problema");
                     e.printStackTrace();
                 } catch (SQLException exception){
-                    LOGGER.info(exception.getMessage());
+                    LOGGER.error(exception.getMessage());
                     exception.printStackTrace();
                 }
             }
@@ -49,7 +49,7 @@ public class OdontologoH2 implements IDao <Odontologo> {
             try {
                 connection.close();
             } catch (Exception e){
-                LOGGER.info("Ha ocurrido un error al intentar cerrar la bdd. " + e.getMessage());
+                LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + e.getMessage());
                 e.printStackTrace();
             }
         }
@@ -74,14 +74,14 @@ public class OdontologoH2 implements IDao <Odontologo> {
             LOGGER.info("Listado de todos los odontologos: " + odontologos);
 
         } catch (Exception e) {
-            LOGGER.info(e.getMessage());
+            LOGGER.error(e.getMessage());
             e.printStackTrace();
 
         } finally {
             try {
                 connection.close();
             } catch (Exception ex) {
-                LOGGER.info("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
+                LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
                 ex.printStackTrace();
             }
         }
