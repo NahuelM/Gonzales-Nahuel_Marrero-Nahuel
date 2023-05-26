@@ -9,17 +9,17 @@ public class OdontologoService {
 
     private IDao<Odontologo> odontologoIDao;
 
-    public OdontologoService(IDao<Odontologo> pacienteIDao) {
-        this.odontologoIDao = pacienteIDao;
+    public OdontologoService(IDao<Odontologo> odontologoIDao) {
+        this.odontologoIDao = odontologoIDao;
     }
 
-    public Odontologo guardarPaciente(Odontologo paciente){
-        return odontologoIDao.guardar(paciente);
+    public Odontologo guardarOdontologo(Odontologo odontologo){
+        return odontologoIDao.guardar(odontologo);
     }
 
 
 
-    public List<Odontologo> listarPacientes(){
+    public List<Odontologo> listarOdontologos(){
         return odontologoIDao.listartodos();
     }
 }
