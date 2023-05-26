@@ -11,8 +11,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 public class TestOdontologo {
     private static final Logger LOGGER = Logger.getLogger(TestOdontologo.class);
-    private OdontologoService pacienteServiceH2 = new OdontologoService(new OdontologoH2());
-    private OdontologoService pacienteServiceLocalMemory = new OdontologoService(new OdontologoLocalMemory());
+    private OdontologoService odontologoServiceH2 = new OdontologoService(new OdontologoH2());
+    private OdontologoService odontologoServiceLocalMemory = new OdontologoService(new OdontologoLocalMemory());
 
 
 /*
@@ -37,7 +37,7 @@ public class TestOdontologo {
     public void sePudoGuardarEnH2(){
         Odontologo odontologo = new Odontologo(555444, "Nahuel", "Marrero");
 
-        Odontologo pacienteResult = pacienteServiceH2.guardarOdontologo(odontologo);
+        Odontologo pacienteResult = odontologoServiceH2.guardarOdontologo(odontologo);
 
         assertNotNull(pacienteResult);
         assertEquals(555444, pacienteResult.getMatricula());
@@ -45,7 +45,7 @@ public class TestOdontologo {
 
     @Test
     public void listarTodosLosOdontologosEnH2(){
-        List<Odontologo> odontologoList = pacienteServiceH2.listarOdontologos();
+        List<Odontologo> odontologoList = odontologoServiceH2.listarOdontologos();
         assertFalse(odontologoList.isEmpty());
 
 
@@ -55,7 +55,7 @@ public class TestOdontologo {
     public void sePudoGuardarEnLocalMem(){
         Odontologo odontologo = new Odontologo(555444, "Nahuel", "Marrero");
 
-        Odontologo pacienteResult = pacienteServiceLocalMemory.guardarOdontologo(odontologo);
+        Odontologo pacienteResult = odontologoServiceLocalMemory.guardarOdontologo(odontologo);
 
         assertNotNull(pacienteResult);
         assertEquals(555444, pacienteResult.getMatricula());
@@ -63,14 +63,14 @@ public class TestOdontologo {
 
     @Test
     public void listarTodosLosOdontologosEnLocalMem(){
-        List<Odontologo> odontologoList = pacienteServiceLocalMemory.listarOdontologos();
+        List<Odontologo> odontologoList = odontologoServiceLocalMemory.listarOdontologos();
         assertTrue(odontologoList.isEmpty());
         Odontologo newOdontologo1 = new Odontologo(123456, "odon1", "apellido1");
         Odontologo newOdontologo2 = new Odontologo(128456, "odon2", "apellido2");
 
-        pacienteServiceLocalMemory.guardarOdontologo(newOdontologo1);
-        pacienteServiceLocalMemory.guardarOdontologo(newOdontologo2);
-        assertTrue(pacienteServiceLocalMemory.listarOdontologos().size() == 2);
+        odontologoServiceLocalMemory.guardarOdontologo(newOdontologo1);
+        odontologoServiceLocalMemory.guardarOdontologo(newOdontologo2);
+        assertTrue(odontologoServiceLocalMemory.listarOdontologos().size() == 2);
 
 
     }
